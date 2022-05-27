@@ -1,0 +1,24 @@
+section{
+    animation: x 6s ease-in-out 1s 1 normal forwards;
+    height: 200px;
+    width: 400px;
+    /*background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: 40px;
+    animation-name: x;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    */
+}
+
+
+@keyframes x{
+    0%{background-color: blueviolet; color: white;}
+    25%{background-color: aquamarine; color: blueviolet}
+    50%{background-color: blue; color: aquamarine}
+    75%{background-color: pink; color: blue}
+    100%{background-color: beige; color:aquamarine}
+
+}
+
+
